@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Deserealizacion_de_un_Archivo</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaBanco\BibliotecaBanco.csproj" />
+    <ProjectReference Include="..\Serializacion de un Archivo\Serializacion de un Archivo.csproj" />
+  </ItemGroup>
+
+</Project>
